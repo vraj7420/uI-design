@@ -233,7 +233,7 @@
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:background="@drawable/round_button"
                         android:textColor="@color/purple_700"
                         app:layout_constraintEnd_toEndOf="@id/titVerifyEmail"
                         app:layout_constraintTop_toTopOf="@id/titVerifyEmail"
@@ -272,12 +272,12 @@
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/round_button"
                         app:layout_constraintEnd_toEndOf="@id/titVerifyPhoneNumber"
                         app:layout_constraintTop_toTopOf="@id/titVerifyPhoneNumber"
                         app:layout_constraintBottom_toBottomOf="@id/titVerifyPhoneNumber"
                         android:layout_marginTop="8dp"
                         android:textSize="11sp"
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/btnVerifyPhone"
                         android:textColor="@color/purple_700"
                         android:text="@string/verify_now"
