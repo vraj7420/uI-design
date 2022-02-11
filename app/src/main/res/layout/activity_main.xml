@@ -5,13 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8AC6C0DA"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -39,8 +37,8 @@
                 android:gravity="center"
                 android:text="@string/create_account_title"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:textSize="22sp"
+                android:fontFamily="@font/roboto_bold"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -52,7 +50,8 @@
                 android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/terms_and_condition"
-                android:textSize="16sp"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto_regular"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toBottomOf="@id/tvCreateAccount" />
@@ -114,6 +113,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:hint="@string/first_and_last"
+                            android:fontFamily="@font/roboto_regular"
                             android:inputType="text" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -135,6 +135,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:hint="@string/email"
+                            android:fontFamily="@font/roboto_regular"
                             android:inputType="textEmailAddress" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -155,6 +156,7 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/tetPassword"
                             android:layout_width="match_parent"
+                            android:fontFamily="@font/roboto_regular"
                             android:layout_height="match_parent"
                             android:hint="@string/password"
                             android:inputType="textPassword" />
@@ -170,9 +172,11 @@
                         android:clickable="false"
                         android:drawableEnd="@drawable/ic_next"
                         android:gravity="center"
-                        android:paddingStart="10dp"
-                        android:paddingEnd="10dp"
+                        android:paddingStart="80dp"
+                        android:paddingEnd="80dp"
+                        android:textSize="16sp"
                         android:text="@string/create_account"
+                        android:textAllCaps="false"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -189,8 +193,8 @@
                 android:gravity="center"
                 android:text="@string/verification_account"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:textSize="22sp"
+                android:fontFamily="@font/roboto_bold"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toBottomOf="@id/cvCreateAccount" />
@@ -198,6 +202,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvVerifyAccount"
                 android:layout_width="0dp"
+                app:cardCornerRadius="10dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
@@ -225,6 +230,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:cursorVisible="false"
+                            android:fontFamily="@font/roboto_medium"
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:hint="@string/verify_email"
@@ -235,12 +241,13 @@
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnVerifyEmail"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="16dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="12dp"
                         android:background="@drawable/round_button"
                         android:text="@string/verify_now"
+                        android:textAllCaps="false"
                         android:textColor="@color/purple_700"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@id/titVerifyEmail"
@@ -255,7 +262,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="10dp"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="16dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -267,7 +274,7 @@
                             android:layout_height="match_parent"
                             android:cursorVisible="false"
                             android:focusable="false"
-                            android:focusableInTouchMode="false"
+                            android:fontFamily="@font/roboto_medium"
                             android:hint="@string/verify_phone"
                             android:inputType="none"
                             android:text="@string/verify_your_phone_number" />
@@ -276,12 +283,13 @@
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnVerifyPhone"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="16dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="12dp"
                         android:background="@drawable/round_button"
                         android:text="@string/verify_now"
+                        android:textAllCaps="false"
                         android:textColor="@color/purple_700"
                         android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="@id/titVerifyPhoneNumber"
@@ -298,8 +306,8 @@
                 android:gravity="center"
                 android:text="@string/_3_your_location"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:textSize="22sp"
+                android:fontFamily="@font/roboto_bold"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toBottomOf="@id/cvVerifyAccount" />
@@ -319,6 +327,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvLocation"
                 android:layout_width="0dp"
+                app:cardCornerRadius="10dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
@@ -362,7 +371,7 @@
                 android:text="@string/payment_information"
                 android:textColor="@color/black"
                 android:textSize="24sp"
-                android:textStyle="bold"
+                android:fontFamily="@font/roboto_bold"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toBottomOf="@id/cvLocation" />
@@ -374,7 +383,7 @@
                 android:layout_marginTop="8dp"
                 android:gravity="center"
                 android:text="@string/you_can_complete_this_section_later"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
                 app:layout_constraintStart_toStartOf="@id/guidelineStart"
                 app:layout_constraintTop_toBottomOf="@id/tvPaymentTitle" />
@@ -382,6 +391,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvPayment"
                 android:layout_width="0dp"
+                app:cardCornerRadius="10dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
@@ -400,7 +410,6 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="8dp"
                         android:drawableEnd="@drawable/ic_next"
-                        android:drawableTint="@color/black"
                         android:paddingStart="10dp"
                         android:paddingTop="8dp"
                         android:paddingEnd="10dp"
@@ -410,8 +419,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        tools:ignore="UnusedAttribute" />
+                        app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
@@ -426,8 +434,10 @@
                 android:background="@drawable/round_button_with_gray_color"
                 android:clickable="false"
                 android:gravity="center"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
+                android:textAllCaps="false"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:textSize="16sp"
                 android:text="@string/continue_to_complete_profile"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"

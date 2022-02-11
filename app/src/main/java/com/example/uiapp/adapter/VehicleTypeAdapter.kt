@@ -1,4 +1,4 @@
-package com.example.uiapp
+package com.example.uiapp.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,6 +10,9 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
+import com.example.uiapp.R
+import com.example.uiapp.model.VehicleTypeModel
+import com.example.uiapp.activity.Screen2Activity
 
 
 class VehicleTypeAdapter(
@@ -49,10 +52,12 @@ class VehicleTypeAdapter(
                 selectedItemCount -=1
             }
             if(selectedItemCount==0){
+                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.black))
                 Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_gray_color)
                 Screen2Activity.btnNextForAdapter.isClickable=false
             }
             else{
+                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.purple_700))
                 Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_purple_color)
                 Screen2Activity.btnNextForAdapter.isClickable=true
             }

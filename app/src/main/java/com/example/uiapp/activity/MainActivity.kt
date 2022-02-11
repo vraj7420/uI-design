@@ -1,4 +1,4 @@
-package com.example.uiapp
+package com.example.uiapp.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
+import com.example.uiapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         init()
+
     }
 
     private fun setListener() {
@@ -33,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         super.onOptionsItemSelected(item)
         when (item.itemId) {
-            (R.id.home) -> {
+            (android.R.id.home) -> {
                 this.finish()
                 }
             (R.id.close)->{
@@ -45,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
         val actionBar: ActionBar? = supportActionBar
-         actionBar?.setTitle(R.string.title_main_activity)
+        actionBar?.setTitle(R.string.title_main_activity)
         actionBar?.setDisplayHomeAsUpEnabled(true)
 
         tetFirstLast.addTextChangedListener {
