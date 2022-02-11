@@ -48,14 +48,14 @@ class VehicleTypeAdapter(
                 holder.cvVehicleItem.setBackgroundResource(R.drawable.unselected_card_view_background)
                 selectedItemCount -=1
             }
-        }
-        if(selectedItemCount==0){
-            Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_gray_color)
-            Screen2Activity.btnNextForAdapter.isClickable=false
-        }
-        else{
-            Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_purple_color)
-            Screen2Activity.btnNextForAdapter.isClickable=true
+            if(selectedItemCount==0){
+                Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_gray_color)
+                Screen2Activity.btnNextForAdapter.isClickable=false
+            }
+            else{
+                Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_purple_color)
+                Screen2Activity.btnNextForAdapter.isClickable=true
+            }
         }
     }
 
