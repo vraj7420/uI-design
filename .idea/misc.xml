@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable-v24/round_button_with_purpule_color.xml" value="0.2361111111111111" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/card_view_background.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_back.xml" value="0.2324074074074074" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_chevron.xml" value="0.2324074074074074" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_close.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_next.xml" value="0.2324074074074074" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_seleted_background.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button.xml" value="0.22777777777777777" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button_with_color.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button_with_gray_color.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button_with_purple_color.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button_with_purpule_color.xml" value="0.1" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/roundbutton.xml" value="0.2324074074074074" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/unslected_card_view_background.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_main.xml" value="0.2231638418079096" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_screen2.xml" value="0.264" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/item_vehicle_tasker.xml" value="0.25" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/menu-v26/menu_application.xml" value="0.1234375" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/menu/menu_application.xml" value="0.1234375" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/mipmap-anydpi-v26/ic_seleted.xml" value="0.26205128205128203" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/mipmap-anydpi-v26/ic_seleted_round.xml" value="0.15572916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

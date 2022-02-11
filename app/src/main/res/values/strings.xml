@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UiApp</string>
+    <string name="create_account_title">1.Create Account</string>
+    <string name="terms_and_condition">
+        By clicking Create Account you are acknowledge that you are over the age 18,and agreeing to Hyer\'s<font color="#FF000000"><u>Terms of Use</u></font> and <font color="#FF000000"><u>Privacy Policy</u></font></string>
+    <string name="business_name">Business Name<font><i>\nAutomatically populated</i></font></string>
+    <string name="first_and_last">First and Last*</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="create_account">Create Account</string>
+    <string name="require">*Required</string>
+    <string name="verification_account">2.Verification Methods</string>
+    <string name="verify_your_email">Verify Your Email</string>
+    <string name="verify_phone">Verify Phone</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="_3_your_location">3. Your Location</string>
+    <string name="working_location">Working Location</string>
+    <string name="you_can_complete_this_section_later">You can complete this section later</string>
+    <string name="payment_information">4.Payment Information</string>
+    <string name="add_payment_method">+ Add Payment Method</string>
+    <string name="continue_to_complete_profile">Continue to Complete Profile</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="vehicle_page_title">What type of vehicle will your Tasker need for this work?</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="vehicle_image">Vehicle Image</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="close">Close</string>
+    <string name="title_main_activity">Basic Information</string>
+</resources>
