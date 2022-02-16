@@ -1,6 +1,7 @@
 package com.example.uiapp.activity
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
@@ -33,6 +34,10 @@ class Screen2Activity : AppCompatActivity() {
     private fun setListener() {
         btnBack.setOnClickListener {
             onBackPressed()
+        }
+        btnNext.setOnClickListener {
+            val intentScreen3=Intent(this,Screen3Activity::class.java)
+            startActivity(intentScreen3)
         }
     }
 

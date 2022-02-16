@@ -28,6 +28,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="@string/vehicle"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"

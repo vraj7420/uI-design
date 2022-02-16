@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/imageViewVerifyLogo"
+        android:contentDescription="@string/todo" />
+  <com.google.android.material.textview.MaterialTextView
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toEndOf="@id/imageViewVerifyLogo"
+      app:layout_constraintTop_toTopOf="@id/imageViewVerifyLogo"
+      android:text="@string/verify_info"
+      android:textSize="11sp"
+      android:id="@+id/tvVerifyInfoName"
+      android:textColor="@color/black"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="10dp"
+      android:fontFamily="@font/roboto_medium"
+      app:layout_constraintBottom_toBottomOf="@id/imageViewVerifyLogo"
+      app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable-v24/round_button_with_purpule_color.xml" value="0.2361111111111111" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/card_view_background.xml" value="0.13958333333333334" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/checked_radio_button.xml" value="0.1" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_back.xml" value="0.2324074074074074" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_chevron.xml" value="0.2324074074074074" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_close.xml" value="0.13958333333333334" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_next.xml" value="0.2324074074074074" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_next_color_whit.xml" value="0.1972972972972973" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_next_gray_colour.xml" value="0.1972972972972973" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_selected.xml" value="0.26205128205128203" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/ic_seleted_background.xml" value="0.13958333333333334" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/round_button.xml" value="0.22777777777777777" />
@@ -21,9 +23,15 @@
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/selected_item_card_view_background.xml" value="0.116796875" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/unselected_card_view_background.xml" value="0.116796875" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/drawable/unslected_card_view_background.xml" value="0.13958333333333334" />
-        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_screen2.xml" value="0.2" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_screen3.xml" value="0.4" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_screen4.xml" value="0.1" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/activity_screen5.xml" value="0.33080634045485874" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/item_payment.xml" value="0.1875" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/item_service.xml" value="0.1875" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/item_vehicle_tasker.xml" value="0.25" />
+        <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/layout/item_verify_info.xml" value="0.2" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/menu-v26/menu_application.xml" value="0.1234375" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/menu/menu_application.xml" value="0.1234375" />
         <entry key="..\:/vraj educations fille/tatvasoft projects/UiApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26205128205128203" />

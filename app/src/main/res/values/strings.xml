@@ -29,4 +29,33 @@
     <string name="vehicle_type">Vehicle Type</string>
     <string name="close">Close</string>
     <string name="title_main_activity">Basic Information</string>
+    <string name="payout_preference">Payout Preference</string>
+    <string name="how_will_you_structure_payments_for_this_task">How will you structure payments for this task?</string>
+    <string name="flat_free">Flat Free</string>
+    <string name="flat_free_description">Event-based.Pay for completing one or more activities(e.g.,deliveries,stocking by cart).</string>
+    <string name="hourly">Hourly</string>
+    <string name="save_and_continue_later">Save and continue later</string>
+    <string name="hour_description">Time-based pay for hours completed on the task (e.g, in-store help,cashier ,bussing)</string>
+    <string name="payment">Payment</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="card_ending_day">Card Ending Day</string>
+    <string name="authorized_date_and_time">Authorized Date and time</string>
+    <string name="person_name">Person Name</string>
+    <string name="payment_id">Payment Id</string>
+    <string name="_4_5_5_0">4.5/5.0</string>
+    <string name="profile_dec">I\'m Elishabeth! I have been helping out local retails stores with merchandizing and displays for the 7 year .i am a local student,but i\'m available day or night for work.i have an eye for details and am hard work</string>
+    <string name="service_provider">Service Provider</string>
+    <string name="bartending">Bartending</string>
+    <string name="_33_hr">$33/hr</string>
+    <string name="reviews">Reviews</string>
+    <string name="pepsico_detroit">PepsiCo Detroit</string>
+    <string name="todo">TODO</string>
+    <string name="elizabeth_did_fantastic_job_she_really_has_an_eye_for_detail_she_punctual_polite_and_some_great_ideas_for_putting_our_displays_together">Elizabeth did fantastic job .she really has an eye for detail.She punctual,polite and some great ideas for putting our displays together</string>
+    <string name="read_all_87_reviews">Read all 87 reviews</string>
+    <string name="verified_info">Verified Info</string>
+    <string name="verify_info">Verify Info</string>
+    <string name="task">18<font>\nTask</font> </string>
+    <string name="location">4<font>\nLocation</font> </string>
+    <string name="from">62863<font>\nFrom</font> </string>
+
 </resources>

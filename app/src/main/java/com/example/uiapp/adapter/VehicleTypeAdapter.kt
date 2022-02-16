@@ -38,26 +38,27 @@ class VehicleTypeAdapter(
         @SuppressLint("RecyclerView") position: Int
     ) {
         val vehicleType = vehicleTypeList[position]
+        holder.cvVehicleItem.setBackgroundResource(R.drawable.unselected_card_view_background)
         holder.imvContact.setImageURI(vehicleType.imgUri.toUri())
         holder.tvVehicleType.text = vehicleType.vehicleType
         holder.cvVehicleItem.setOnClickListener {
             vehicleType.setSelectedVehicle(!vehicleType.isSelected)
             if (vehicleType.isSelected) {
+                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.purple_700))
                 holder.imageSelected.visibility = View.VISIBLE
                 holder.cvVehicleItem.setBackgroundResource(R.drawable.selected_item_card_view_background)
                 selectedItemCount += 1
             } else {
+                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.black))
                 holder.imageSelected.visibility = View.GONE
                 holder.cvVehicleItem.setBackgroundResource(R.drawable.unselected_card_view_background)
                 selectedItemCount -=1
             }
             if(selectedItemCount==0){
-                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.black))
                 Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_gray_color)
                 Screen2Activity.btnNextForAdapter.isClickable=false
             }
             else{
-                holder.tvVehicleType.setTextColor(ctx.resources.getColor(R.color.purple_700))
                 Screen2Activity.btnNextForAdapter.setBackgroundResource(R.drawable.round_button_with_purple_color)
                 Screen2Activity.btnNextForAdapter.isClickable=true
             }
