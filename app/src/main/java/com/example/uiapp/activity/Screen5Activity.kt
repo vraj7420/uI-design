@@ -2,6 +2,8 @@ package com.example.uiapp.activity
 
 import android.net.Uri
 import android.os.Bundle
+import android.view.MenuItem
+import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.uiapp.R
@@ -22,6 +24,9 @@ class Screen5Activity : AppCompatActivity() {
     }
 
     private fun init() {
+        val actionBar: ActionBar? = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.title = ""
         for (i in 1..10) {
             serviceProviderList.add(
                 ServiceProviderModel(Uri.parse("android.resource://com.example.uiapp/drawable/ic_launcher_background").toString(),"Betending","$33/hr"))
@@ -32,6 +37,15 @@ class Screen5Activity : AppCompatActivity() {
         }
         setVerifyInfoAdapter()
 
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            (android.R.id.home) -> {
+                onBackPressed()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun setVerifyInfoAdapter() {

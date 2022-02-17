@@ -1,6 +1,7 @@
 package com.example.uiapp.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import android.widget.TextView
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uiapp.R
+import com.example.uiapp.activity.Screen5Activity
 import com.example.uiapp.model.PaymentModel
 
 class PaymentAdapter(private var ctx: Context, private var paymentList: ArrayList<PaymentModel>) :
@@ -37,13 +39,17 @@ class PaymentAdapter(private var ctx: Context, private var paymentList: ArrayLis
         holder.tvTaskId.text = payment.taskId
         holder.imageViewCard.setImageURI(payment.cardImage.toUri())
         holder.imageViewPerson.setImageURI(payment.imageViewPerson.toUri())
+        holder.itemView.setOnClickListener {
+            val intentScreen5=Intent(ctx, Screen5Activity::class.java)
+            ctx.startActivity(intentScreen5)
+        }
     }
 
     override fun getItemCount(): Int {
         return paymentList.size
     }
 
-    class PaymentVieHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+   inner class PaymentVieHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val tvPaymentName: TextView = itemView.findViewById(R.id.tvPaymentName)
         val tvAuthorizedDateAndTime: TextView = itemView.findViewById(R.id.tvAuthorizeDateAndTime)
         val tvPaymentAmount: TextView = itemView.findViewById(R.id.tvPaymentAmount)
@@ -53,5 +59,6 @@ class PaymentAdapter(private var ctx: Context, private var paymentList: ArrayLis
         val imageViewPerson: ImageView = itemView.findViewById(R.id.imageViewPerson)
         val tvPersonName: TextView = itemView.findViewById(R.id.tvPersonName)
         val tvTaskId: TextView = itemView.findViewById(R.id.tvTaskId)
-    }
+
+   }
 }

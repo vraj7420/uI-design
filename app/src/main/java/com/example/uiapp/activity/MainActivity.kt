@@ -29,16 +29,17 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_application,menu)
+        menuInflater.inflate(R.menu.menu_application, menu)
         return true
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         super.onOptionsItemSelected(item)
         when (item.itemId) {
             (android.R.id.home) -> {
                 this.finish()
-                }
-            (R.id.close)->{
+            }
+            (R.id.close) -> {
                 finish()
             }
         }
@@ -70,6 +71,10 @@ class MainActivity : AppCompatActivity() {
             btnCreateAccount.setBackgroundResource(R.drawable.round_button_with_purple_color)
             btnCreateAccount.isClickable = true
             setListener()
+        }
+        else{
+            btnCreateAccount.setBackgroundResource(R.drawable.round_button_with_gray_color)
+            btnCreateAccount.isClickable = false
         }
     }
 }

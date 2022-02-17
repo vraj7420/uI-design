@@ -53,7 +53,8 @@
     <RadioGroup
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/rgPaymentMethod"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@id/tvPageDescription">
@@ -172,6 +173,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:gravity="center"
+        android:layout_marginTop="200dp"
         android:background="@drawable/round_button_with_purple_color"
         android:textColor="@color/white"
         android:layout_marginBottom="16dp"
@@ -182,7 +184,7 @@
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/btnSaveAndContinue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -191,6 +193,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/round_button"
         android:gravity="center"
+        android:padding="5dp"
         android:text="@string/save_and_continue_later"
         android:textAllCaps="false"
         android:textColor="@color/white"

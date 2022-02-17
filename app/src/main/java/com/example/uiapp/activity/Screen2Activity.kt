@@ -45,6 +45,7 @@ class Screen2Activity : AppCompatActivity() {
         btnNextForAdapter = findViewById(R.id.btnNext)
         val actionBar: ActionBar? = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.title=""
         for (i in 1..10) {
             vehicleTypeList.add(
                 VehicleTypeModel(

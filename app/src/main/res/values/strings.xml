@@ -54,8 +54,11 @@
     <string name="read_all_87_reviews">Read all 87 reviews</string>
     <string name="verified_info">Verified Info</string>
     <string name="verify_info">Verify Info</string>
-    <string name="task">18<font>\nTask</font> </string>
-    <string name="location">4<font>\nLocation</font> </string>
-    <string name="from">62863<font>\nFrom</font> </string>
+    <string name="task">Tasks</string>
+    <string name="location">Location</string>
+    <string name="from">From </string>
+    <string name="_18">18</string>
+    <string name="_4">4</string>
+    <string name="_62863">62863</string>
 
 </resources>
